@@ -1,0 +1,96 @@
+Absolutely. Here’s a stripped-down list of everything that needs to be on your SkillFlip website — just the pages, plugins, and key functions required to launch your MVP and start making money.
+
+⸻
+
+✅ Pages (Core Structure)
+	1.	Home Page
+	2.	Browse Skills
+	3.	Creator Profile Page
+	4.	List Your Skill (Creator Signup)
+	5.	Booking Page
+	6.	Login / Sign Up
+	7.	Flip Nights (Events)
+	8.	About Page
+	9.	Dashboard (for Creators)
+	10.	Admin Panel (for you)
+
+⸻
+
+🔌 Essential Plugins / Integrations
+
+1. Stripe Connect
+	•	Handles bookings & creator payouts
+	•	Auto splits revenue (you keep 25%)
+
+2. Calendar Booking Plugin
+	•	Let users book time slots
+	•	Integrate: Calendly API, TidyCal, or custom
+
+3. User Auth Plugin
+	•	Sign up / log in / forgot password
+	•	Options: Firebase Auth, Clerk, or Supabase Auth
+
+4. Database / CMS
+	•	Stores user profiles, skill listings, bookings
+	•	Use: Firebase, Airtable, or Webflow CMS
+
+5. File Uploads
+	•	Creators can upload videos, photos, documents
+	•	Use: Uploadcare or Cloudinary
+
+6. Email Notification System
+	•	Send booking confirmations, receipts, reminders
+	•	Use: Resend, Mailchimp, or Postmark
+
+7. Review & Rating Plugin
+	•	After a booking, allow star ratings + comments
+	•	Can be built custom or added via CMS
+
+8. Search & Filters
+	•	Skill search by keyword, category, price, location
+	•	Filter bar must support dropdowns + toggle (e.g., “Virtual only”)
+
+⸻
+
+⚙️ Core Functions You Must Include
+
+🧑‍💻 For Creators:
+	•	Sign up & create profile
+	•	List multiple services with price & description
+	•	Upload media (images/video)
+	•	Set availability (calendar)
+	•	View bookings & earnings in dashboard
+	•	Get payouts to Stripe
+	•	Optional: toggle “Barter Accepted”
+
+⸻
+
+💳 For Buyers:
+	•	Browse/search skills
+	•	View creator profiles
+	•	Book service with selected time
+	•	Pay securely with Stripe
+	•	Leave a review
+
+⸻
+
+👑 For Admin (You):
+	•	Approve new listings
+	•	Manage categories
+	•	Feature creators
+	•	View platform revenue
+	•	Ban/remove listings
+	•	Export booking data
+
+⸻
+
+📲 Optional (For Future Additions):
+	•	Push notifications (web or SMS)
+	•	Creator ranking / leaderboard
+	•	AI-powered skill bio helper
+	•	Live chat or DM feature
+	•	Mobile app version
+
+⸻
+
+Want me to bundle this as a checklist or wireframe? I can also map it to a specific platform like Framer, Bubble, or Webflow if you tell me what you’re using.

@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(0, 0%, 100%);
+  --foreground: hsl(20, 14.3%, 4.1%);
+  --muted: hsl(60, 4.8%, 95.9%);
+  --muted-foreground: hsl(25, 5.3%, 44.7%);
+  --popover: hsl(0, 0%, 100%);
+  --popover-foreground: hsl(20, 14.3%, 4.1%);
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(20, 14.3%, 4.1%);
+  --border: hsl(20, 5.9%, 90%);
+  --input: hsl(20, 5.9%, 90%);
+  --primary: hsl(245, 83%, 63%);
+  --primary-foreground: hsl(211, 100%, 99%);
+  --secondary: hsl(152, 76%, 36%);
+  --secondary-foreground: hsl(60, 9.1%, 97.8%);
+  --accent: hsl(39, 96%, 48%);
+  --accent-foreground: hsl(39, 96%, 15%);
+  --destructive: hsl(0, 84.2%, 60.2%);
+  --destructive-foreground: hsl(60, 9.1%, 97.8%);
+  --ring: hsl(20, 14.3%, 4.1%);
+  --radius: 0.5rem;
+}
+
+.dark {
+  --background: hsl(240, 10%, 3.9%);
+  --foreground: hsl(0, 0%, 98%);
+  --muted: hsl(240, 3.7%, 15.9%);
+  --muted-foreground: hsl(240, 5%, 64.9%);
+  --popover: hsl(240, 10%, 3.9%);
+  --popover-foreground: hsl(0, 0%, 98%);
+  --card: hsl(240, 10%, 3.9%);
+  --card-foreground: hsl(0, 0%, 98%);
+  --border: hsl(240, 3.7%, 15.9%);
+  --input: hsl(240, 3.7%, 15.9%);
+  --primary: hsl(245, 83%, 63%);
+  --primary-foreground: hsl(211, 100%, 99%);
+  --secondary: hsl(152, 76%, 36%);
+  --secondary-foreground: hsl(0, 0%, 98%);
+  --accent: hsl(39, 96%, 48%);
+  --accent-foreground: hsl(0, 0%, 98%);
+  --destructive: hsl(0, 62.8%, 30.6%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --ring: hsl(240, 4.9%, 83.9%);
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+/* Custom component styles */
+.skill-card {
+  @apply bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300;
+}
+
+.creator-card {
+  @apply bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300;
+}
+
+.category-card {
+  @apply p-6 rounded-2xl text-center hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1;
+}
+
+.gradient-bg {
+  background: linear-gradient(135deg, hsl(245, 83%, 63%) 0%, hsl(152, 76%, 36%) 50%, hsl(39, 96%, 48%) 100%);
+}
+
+.hero-bg {
+  background: linear-gradient(135deg, hsl(245, 83%, 63%, 0.05) 0%, hsl(152, 76%, 36%, 0.05) 50%, hsl(39, 96%, 48%, 0.05) 100%);
+}
